@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "one-billion-row-challenge-python-starter"
+version = "0.1.0"
+description = "Starter repo para o desafio de 1 bilhão de linhas"
+authors = ["Seu Nome <seu.email@exemplo.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.1"
+tqdm = "^4.66.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
